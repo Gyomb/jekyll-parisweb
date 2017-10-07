@@ -1,5 +1,5 @@
 ---
-titre: L'Équipe
+titre: equipe
 description: les membres de l'atelier
 ---
 
