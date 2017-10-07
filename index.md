@@ -12,9 +12,16 @@ GSS = Générateur de sites statiques
 
 <h1>{{page.title}}</h1>
 
-# menu
+## menu
 <ul>
 	{% for page in site.pages %}
 	 <li><a href="{{ page.name }}">{{ page.title }}</a></li>
+	{% endfor %}
+</ul>
+
+## Articles
+<ul>
+	{% for post in site.posts %}
+		<li><a href="{{ post.title }}">{{ post.title }}</a></li>
 	{% endfor %}
 </ul>
