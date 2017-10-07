@@ -1,3 +1,8 @@
+---
+title: Page d'accueil
+description: Index du site statique
+---
+
 # Découvrir les GSS avec Paris Web 2017
 
 GSS = Générateur de sites statiques
@@ -6,3 +11,4 @@ GSS = Générateur de sites statiques
 
 
 <h1>{{page.title}}</h1>
+
